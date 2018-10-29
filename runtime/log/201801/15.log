@@ -1,7 +1,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T10:54:37+08:00 ] 0.0.0.0 218.85.72.17 GET /
 [ info ] lsadmin.zhengdoudou.cn/ [运行时间：0.031249s][吞吐率：32.00req/s] [内存消耗：1,149.52kb] [文件加载：35]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -23,14 +23,14 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File
 ---------------------------------------------------------------
 [ 2018-01-15T10:54:39+08:00 ] 0.0.0.0 218.85.72.17 GET /
 [ info ] lsadmin.zhengdoudou.cn/ [运行时间：0.015624s][吞吐率：64.00req/s] [内存消耗：1,022.26kb] [文件加载：33]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -52,14 +52,14 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File
 ---------------------------------------------------------------
 [ 2018-01-15T10:54:44+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index
 [ info ] lsadmin.zhengdoudou.cn/admin/user/index [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,158.78kb] [文件加载：35]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -83,8 +83,8 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
 ) ]
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -97,7 +97,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T10:54:48+08:00 ] 0.0.0.0 218.85.72.17 GET /
 [ info ] lsadmin.zhengdoudou.cn/ [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,022.92kb] [文件加载：33]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -120,14 +120,14 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File
 ---------------------------------------------------------------
 [ 2018-01-15T10:55:06+08:00 ] 0.0.0.0 218.85.72.17 GET /
 [ info ] lsadmin.zhengdoudou.cn/ [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,022.61kb] [文件加载：33]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -149,14 +149,14 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File
 ---------------------------------------------------------------
 [ 2018-01-15T10:55:08+08:00 ] 0.0.0.0 120.92.11.152 GET /
 [ info ] lsadmin.zhengdoudou.cn/ [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,022.15kb] [文件加载：33]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -177,14 +177,14 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File
 ---------------------------------------------------------------
 [ 2018-01-15T10:55:27+08:00 ] 0.0.0.0 218.85.72.17 GET /
 [ info ] lsadmin.zhengdoudou.cn/ [运行时间：0.000000s][吞吐率：∞req/s] [内存消耗：1,023.44kb] [文件加载：33]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -208,14 +208,14 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File
 ---------------------------------------------------------------
 [ 2018-01-15T10:55:37+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index
 [ info ] lsadmin.zhengdoudou.cn/admin/user/index [运行时间：0.015624s][吞吐率：64.00req/s] [内存消耗：1,042.23kb] [文件加载：33]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -241,8 +241,8 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
 ) ]
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -255,7 +255,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T10:55:42+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/user/login
 [ info ] lsadmin.zhengdoudou.cn/admin/user/login [运行时间：0.046873s][吞吐率：21.33req/s] [内存消耗：1,784.14kb] [文件加载：43]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -284,7 +284,7 @@
   'username' => 'admin',
   'password' => 'admin',
 )
-[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
 [ info ] [ DB ] INIT mysql
 [ info ] [ LOG ] INIT File
 [ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
@@ -294,7 +294,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T10:55:47+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/user/login
 [ info ] lsadmin.zhengdoudou.cn/admin/user/login [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,835.43kb] [文件加载：44]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -323,7 +323,7 @@
   'username' => 'admin',
   'password' => '123456',
 )
-[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
 [ info ] [ DB ] INIT mysql
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -341,7 +341,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T10:55:50+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index/index
 [ info ] lsadmin.zhengdoudou.cn/admin/user/index/index [运行时间：0.015624s][吞吐率：64.00req/s] [内存消耗：1,091.04kb] [文件加载：34]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -367,8 +367,8 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
 ) ]
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -381,7 +381,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T10:55:51+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/index.html
 [ info ] lsadmin.zhengdoudou.cn/admin/index/index.html [运行时间：0.046874s][吞吐率：21.33req/s] [内存消耗：1,846.30kb] [文件加载：45]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -415,8 +415,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
   0 => 'menu',
 ) ]
 [ info ] [ LOG ] INIT File
@@ -429,7 +429,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T10:55:52+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/welcome.html
 [ info ] lsadmin.zhengdoudou.cn/admin/index/welcome.html [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,799.90kb] [文件加载：44]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -463,8 +463,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
   0 => 'menu',
 ) ]
 [ info ] [ LOG ] INIT File
@@ -477,7 +477,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T10:55:54+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index
 [ info ] lsadmin.zhengdoudou.cn/admin/user/index [运行时间：0.031249s][吞吐率：32.00req/s] [内存消耗：1,090.89kb] [文件加载：34]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -503,8 +503,8 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
 ) ]
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -517,7 +517,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T10:55:55+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/index.html
 [ info ] lsadmin.zhengdoudou.cn/admin/index/index.html [运行时间：0.078123s][吞吐率：12.80req/s] [内存消耗：1,715.90kb] [文件加载：43]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -551,8 +551,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
   0 => 'menu',
 ) ]
 [ info ] [ LOG ] INIT File
@@ -565,7 +565,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T10:55:55+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/welcome.html
 [ info ] lsadmin.zhengdoudou.cn/admin/index/welcome.html [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,667.70kb] [文件加载：42]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -599,8 +599,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
   0 => 'menu',
 ) ]
 [ info ] [ LOG ] INIT File
@@ -613,7 +613,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T10:55:58+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/logout.html
 [ info ] lsadmin.zhengdoudou.cn/admin/user/logout.html [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,105.82kb] [文件加载：35]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -639,7 +639,7 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\User->logOut[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ RUN ] app\admin\controller\User->logOut[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
 [ info ] [ SESSION ] INIT array (
   'id' => '',
   'var_session_id' => '',
@@ -651,7 +651,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T10:55:59+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index.html
 [ info ] lsadmin.zhengdoudou.cn/admin/user/index.html [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,042.62kb] [文件加载：33]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -677,8 +677,8 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
 ) ]
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -691,7 +691,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T11:17:14+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index.html
 [ info ] lsadmin.zhengdoudou.cn/admin/user/index.html [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,042.44kb] [文件加载：33]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -717,8 +717,8 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
 ) ]
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -731,7 +731,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:02:48+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/user/login
 [ info ] lsadmin.zhengdoudou.cn/admin/user/login [运行时间：0.046874s][吞吐率：21.33req/s] [内存消耗：1,783.21kb] [文件加载：43]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -760,7 +760,7 @@
   'username' => '',
   'password' => '',
 )
-[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
 [ info ] [ DB ] INIT mysql
 [ info ] [ LOG ] INIT File
 [ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
@@ -769,7 +769,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:02:49+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/user/login
 [ info ] lsadmin.zhengdoudou.cn/admin/user/login [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,783.29kb] [文件加载：43]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -798,7 +798,7 @@
   'username' => '',
   'password' => '',
 )
-[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
 [ info ] [ DB ] INIT mysql
 [ info ] [ LOG ] INIT File
 [ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
@@ -807,7 +807,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:02:54+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/user/login
 [ info ] lsadmin.zhengdoudou.cn/admin/user/login [运行时间：0.046874s][吞吐率：21.33req/s] [内存消耗：1,784.13kb] [文件加载：43]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -836,7 +836,7 @@
   'username' => 'admin',
   'password' => 'admin',
 )
-[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
 [ info ] [ DB ] INIT mysql
 [ info ] [ LOG ] INIT File
 [ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
@@ -846,7 +846,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:02:58+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/user/login
 [ info ] lsadmin.zhengdoudou.cn/admin/user/login [运行时间：0.031249s][吞吐率：32.00req/s] [内存消耗：1,835.45kb] [文件加载：44]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -875,7 +875,7 @@
   'username' => 'admin',
   'password' => '123456',
 )
-[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
 [ info ] [ DB ] INIT mysql
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -893,7 +893,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:03:01+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index/index
 [ info ] lsadmin.zhengdoudou.cn/admin/user/index/index [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,091.02kb] [文件加载：34]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -919,8 +919,8 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
 ) ]
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -933,7 +933,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:03:02+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/index.html
 [ info ] lsadmin.zhengdoudou.cn/admin/index/index.html [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,715.89kb] [文件加载：43]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -967,8 +967,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
   0 => 'menu',
 ) ]
 [ info ] [ LOG ] INIT File
@@ -981,7 +981,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:03:02+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/welcome.html
 [ info ] lsadmin.zhengdoudou.cn/admin/index/welcome.html [运行时间：0.046873s][吞吐率：21.33req/s] [内存消耗：1,667.70kb] [文件加载：42]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1015,8 +1015,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
   0 => 'menu',
 ) ]
 [ info ] [ LOG ] INIT File
@@ -1029,7 +1029,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:03:05+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index.html
 [ info ] lsadmin.zhengdoudou.cn/admin/user/index.html [运行时间：0.015624s][吞吐率：64.00req/s] [内存消耗：1,090.65kb] [文件加载：34]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1054,8 +1054,8 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
 ) ]
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -1068,7 +1068,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:03:05+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/index.html
 [ info ] lsadmin.zhengdoudou.cn/admin/index/index.html [运行时间：0.046873s][吞吐率：21.33req/s] [内存消耗：1,715.80kb] [文件加载：43]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1102,8 +1102,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
   0 => 'menu',
 ) ]
 [ info ] [ LOG ] INIT File
@@ -1116,7 +1116,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:03:05+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/welcome.html
 [ info ] lsadmin.zhengdoudou.cn/admin/index/welcome.html [运行时间：0.046874s][吞吐率：21.33req/s] [内存消耗：1,667.70kb] [文件加载：42]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1150,8 +1150,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
   0 => 'menu',
 ) ]
 [ info ] [ LOG ] INIT File
@@ -1164,7 +1164,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:03:09+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/logout.html
 [ info ] lsadmin.zhengdoudou.cn/admin/user/logout.html [运行时间：0.000000s][吞吐率：∞req/s] [内存消耗：1,105.80kb] [文件加载：35]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1190,7 +1190,7 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\User->logOut[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ RUN ] app\admin\controller\User->logOut[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
 [ info ] [ SESSION ] INIT array (
   'id' => '',
   'var_session_id' => '',
@@ -1202,7 +1202,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:03:09+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index.html
 [ info ] lsadmin.zhengdoudou.cn/admin/user/index.html [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,042.66kb] [文件加载：33]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1228,8 +1228,8 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
 ) ]
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -1242,7 +1242,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:06:00+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index.html
 [ info ] lsadmin.zhengdoudou.cn/admin/user/index.html [运行时间：0.015624s][吞吐率：64.00req/s] [内存消耗：1,159.66kb] [文件加载：35]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1268,8 +1268,8 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
 ) ]
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -1282,7 +1282,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:07:49+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/user/login
 [ info ] lsadmin.zhengdoudou.cn/admin/user/login [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,835.45kb] [文件加载：44]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1311,7 +1311,7 @@
   'username' => 'admin',
   'password' => '123456',
 )
-[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
 [ info ] [ DB ] INIT mysql
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -1329,7 +1329,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:07:53+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index/index
 [ info ] lsadmin.zhengdoudou.cn/admin/user/index/index [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,091.00kb] [文件加载：34]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1355,8 +1355,8 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
 ) ]
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -1369,7 +1369,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:07:53+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/index.html
 [ info ] lsadmin.zhengdoudou.cn/admin/index/index.html [运行时间：0.046873s][吞吐率：21.33req/s] [内存消耗：1,715.89kb] [文件加载：43]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1403,8 +1403,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
   0 => 'menu',
 ) ]
 [ info ] [ LOG ] INIT File
@@ -1417,7 +1417,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:07:54+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/welcome.html
 [ info ] lsadmin.zhengdoudou.cn/admin/index/welcome.html [运行时间：0.046873s][吞吐率：21.33req/s] [内存消耗：1,667.70kb] [文件加载：42]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1451,8 +1451,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
   0 => 'menu',
 ) ]
 [ info ] [ LOG ] INIT File
@@ -1465,7 +1465,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:07:59+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/db_manage/index.html
 [ info ] lsadmin.zhengdoudou.cn/admin/db_manage/index.html [运行时间：0.046873s][吞吐率：21.33req/s] [内存消耗：1,788.73kb] [文件加载：44]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1499,8 +1499,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\DbManage->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\DbManage.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\db_manage\index.html [ array (
+[ info ] [ RUN ] app\admin\controller\DbManage->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\DbManage.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\db_manage\index.html [ array (
   0 => 'menu',
   1 => 'db_names',
   2 => 'count',
@@ -1516,7 +1516,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:08:00+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/userlist.html
 [ info ] lsadmin.zhengdoudou.cn/admin/user/userlist.html [运行时间：0.031249s][吞吐率：32.00req/s] [内存消耗：1,900.99kb] [文件加载：46]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1542,9 +1542,9 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\User->userlist[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ RUN ] app\admin\controller\User->userlist[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
 [ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\userlist.html [ array (
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\userlist.html [ array (
   0 => 'users',
 ) ]
 [ info ] [ LOG ] INIT File
@@ -1555,7 +1555,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:08:02+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/edit.html?id=1
 [ info ] lsadmin.zhengdoudou.cn/admin/user/edit.html?id=1 [运行时间：0.078122s][吞吐率：12.80req/s] [内存消耗：1,761.52kb] [文件加载：42]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1582,9 +1582,9 @@
 [ info ] [ PARAM ] array (
   'id' => '1',
 )
-[ info ] [ RUN ] app\admin\controller\User->edit[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ RUN ] app\admin\controller\User->edit[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
 [ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\edit.html [ array (
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\edit.html [ array (
   0 => 'auth_group',
   1 => 'data',
 ) ]
@@ -1597,7 +1597,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:52:31+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/file_system/index.html
 [ info ] lsadmin.zhengdoudou.cn/admin/file_system/index.html [运行时间：0.093747s][吞吐率：10.67req/s] [内存消耗：1,932.65kb] [文件加载：48]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1631,8 +1631,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\FileSystem->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\FileSystem.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\file_system\index.html [ array (
+[ info ] [ RUN ] app\admin\controller\FileSystem->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\FileSystem.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\file_system\index.html [ array (
   0 => 'menu',
   1 => 'data',
 ) ]
@@ -1649,7 +1649,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:52:33+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/file_system/upload.html
 [ info ] lsadmin.zhengdoudou.cn/admin/file_system/upload.html [运行时间：0.031249s][吞吐率：32.00req/s] [内存消耗：1,843.65kb] [文件加载：45]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1683,8 +1683,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\FileSystem->upload[ D:\web-tb\lotusadmin���\code\application\admin\controller\FileSystem.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\file_system\upload.html [ array (
+[ info ] [ RUN ] app\admin\controller\FileSystem->upload[ D:\web-tb\lotusadmin���\code\application\admin\controller\FileSystem.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\file_system\upload.html [ array (
   0 => 'menu',
 ) ]
 [ info ] [ LOG ] INIT File
@@ -1697,7 +1697,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:53:00+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/file_system/upload.html
 [ info ] lsadmin.zhengdoudou.cn/admin/file_system/upload.html [运行时间：0.078123s][吞吐率：12.80req/s] [内存消耗：1,846.98kb] [文件加载：46]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1736,8 +1736,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\FileSystem->upload[ D:\web-tb\lotusadmin���\code\application\admin\controller\FileSystem.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code\thinkphp\tpl\dispatch_jump.tpl [ array (
+[ info ] [ RUN ] app\admin\controller\FileSystem->upload[ D:\web-tb\lotusadmin���\code\application\admin\controller\FileSystem.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code\thinkphp\tpl\dispatch_jump.tpl [ array (
   0 => 'menu',
   1 => 'code',
   2 => 'msg',
@@ -1757,7 +1757,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:53:03+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/file_system/index.html
 [ info ] lsadmin.zhengdoudou.cn/admin/file_system/index.html [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,811.73kb] [文件加载：46]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1792,8 +1792,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\FileSystem->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\FileSystem.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\file_system\index.html [ array (
+[ info ] [ RUN ] app\admin\controller\FileSystem->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\FileSystem.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\file_system\index.html [ array (
   0 => 'menu',
   1 => 'data',
 ) ]
@@ -1810,7 +1810,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:53:11+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/file_system/index.html
 [ info ] lsadmin.zhengdoudou.cn/admin/file_system/index.html [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,811.73kb] [文件加载：46]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1844,8 +1844,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\FileSystem->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\FileSystem.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\file_system\index.html [ array (
+[ info ] [ RUN ] app\admin\controller\FileSystem->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\FileSystem.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\file_system\index.html [ array (
   0 => 'menu',
   1 => 'data',
 ) ]
@@ -1862,7 +1862,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:54:35+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index.html
 [ info ] lsadmin.zhengdoudou.cn/admin/user/index.html [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,042.01kb] [文件加载：33]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1887,8 +1887,8 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
 ) ]
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -1901,7 +1901,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:54:41+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/user/login
 [ info ] lsadmin.zhengdoudou.cn/admin/user/login [运行时间：0.031249s][吞吐率：32.00req/s] [内存消耗：1,835.43kb] [文件加载：44]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1930,7 +1930,7 @@
   'username' => 'admin',
   'password' => '123456',
 )
-[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
 [ info ] [ DB ] INIT mysql
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -1948,7 +1948,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:54:44+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/user/login
 [ info ] lsadmin.zhengdoudou.cn/admin/user/login [运行时间：0.031249s][吞吐率：32.00req/s] [内存消耗：1,835.45kb] [文件加载：44]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1977,7 +1977,7 @@
   'username' => 'admin',
   'password' => '123456',
 )
-[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
 [ info ] [ DB ] INIT mysql
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -1995,7 +1995,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:54:45+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index/index
 [ info ] lsadmin.zhengdoudou.cn/admin/user/index/index [运行时间：0.015624s][吞吐率：64.00req/s] [内存消耗：1,091.00kb] [文件加载：34]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -2021,8 +2021,8 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
 ) ]
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -2035,7 +2035,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:54:45+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/index.html
 [ info ] lsadmin.zhengdoudou.cn/admin/index/index.html [运行时间：0.046874s][吞吐率：21.33req/s] [内存消耗：1,715.89kb] [文件加载：43]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -2069,8 +2069,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
   0 => 'menu',
 ) ]
 [ info ] [ LOG ] INIT File
@@ -2083,7 +2083,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:54:45+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/welcome.html
 [ info ] lsadmin.zhengdoudou.cn/admin/index/welcome.html [运行时间：0.046873s][吞吐率：21.33req/s] [内存消耗：1,667.70kb] [文件加载：42]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -2117,8 +2117,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
   0 => 'menu',
 ) ]
 [ info ] [ LOG ] INIT File
@@ -2131,7 +2131,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:54:47+08:00 ] 0.0.0.0 218.85.72.17 GET /
 [ info ] lsadmin.zhengdoudou.cn/ [运行时间：0.015624s][吞吐率：64.00req/s] [内存消耗：1,023.91kb] [文件加载：33]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -2156,14 +2156,14 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File
 ---------------------------------------------------------------
 [ 2018-01-15T12:54:58+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/index.html
 [ info ] lsadmin.zhengdoudou.cn/admin/index/index.html [运行时间：0.046874s][吞吐率：21.33req/s] [内存消耗：1,715.89kb] [文件加载：43]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -2197,8 +2197,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
   0 => 'menu',
 ) ]
 [ info ] [ LOG ] INIT File
@@ -2211,7 +2211,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:54:58+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/welcome.html
 [ info ] lsadmin.zhengdoudou.cn/admin/index/welcome.html [运行时间：0.046873s][吞吐率：21.33req/s] [内存消耗：1,667.70kb] [文件加载：42]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -2245,8 +2245,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
   0 => 'menu',
 ) ]
 [ info ] [ LOG ] INIT File
@@ -2259,7 +2259,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T12:55:00+08:00 ] 0.0.0.0 218.85.72.17 GET /
 [ info ] lsadmin.zhengdoudou.cn/ [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,023.91kb] [文件加载：33]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -2284,14 +2284,14 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File
 ---------------------------------------------------------------
 [ 2018-01-15T13:00:39+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index.html
 [ info ] lsadmin.zhengdoudou.cn/admin/user/index.html [运行时间：0.015624s][吞吐率：64.00req/s] [内存消耗：1,041.96kb] [文件加载：33]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -2316,8 +2316,8 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
 ) ]
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -2330,7 +2330,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T13:04:12+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/user/login
 [ info ] lsadmin.zhengdoudou.cn/admin/user/login [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,835.43kb] [文件加载：44]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -2359,7 +2359,7 @@
   'username' => 'admin',
   'password' => '123456',
 )
-[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
 [ info ] [ DB ] INIT mysql
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -2377,7 +2377,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T13:04:15+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index/index
 [ info ] lsadmin.zhengdoudou.cn/admin/user/index/index [运行时间：0.031249s][吞吐率：32.00req/s] [内存消耗：1,091.00kb] [文件加载：34]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -2403,8 +2403,8 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
 ) ]
 [ info ] [ SESSION ] INIT array (
   'id' => '',
@@ -2417,7 +2417,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T13:04:16+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/index.html
 [ info ] lsadmin.zhengdoudou.cn/admin/index/index.html [运行时间：0.046874s][吞吐率：21.33req/s] [内存消耗：1,715.89kb] [文件加载：43]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -2451,8 +2451,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
   0 => 'menu',
 ) ]
 [ info ] [ LOG ] INIT File
@@ -2465,7 +2465,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T13:04:16+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/welcome.html
 [ info ] lsadmin.zhengdoudou.cn/admin/index/welcome.html [运行时间：0.046873s][吞吐率：21.33req/s] [内存消耗：1,667.70kb] [文件加载：42]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -2499,8 +2499,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
   0 => 'menu',
 ) ]
 [ info ] [ LOG ] INIT File
@@ -2513,7 +2513,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T13:04:27+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/file_system/index.html
 [ info ] lsadmin.zhengdoudou.cn/admin/file_system/index.html [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,811.73kb] [文件加载：46]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -2547,8 +2547,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\FileSystem->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\FileSystem.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\file_system\index.html [ array (
+[ info ] [ RUN ] app\admin\controller\FileSystem->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\FileSystem.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\file_system\index.html [ array (
   0 => 'menu',
   1 => 'data',
 ) ]
@@ -2565,7 +2565,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T13:04:36+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/userlist.html
 [ info ] lsadmin.zhengdoudou.cn/admin/user/userlist.html [运行时间：0.046874s][吞吐率：21.33req/s] [内存消耗：1,776.11kb] [文件加载：44]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -2591,9 +2591,9 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\User->userlist[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ RUN ] app\admin\controller\User->userlist[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
 [ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\userlist.html [ array (
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\userlist.html [ array (
   0 => 'users',
 ) ]
 [ info ] [ LOG ] INIT File
@@ -2604,7 +2604,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T13:04:41+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/edit.html?id=1
 [ info ] lsadmin.zhengdoudou.cn/admin/user/edit.html?id=1 [运行时间：0.046874s][吞吐率：21.33req/s] [内存消耗：1,637.34kb] [文件加载：40]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -2631,9 +2631,9 @@
 [ info ] [ PARAM ] array (
   'id' => '1',
 )
-[ info ] [ RUN ] app\admin\controller\User->edit[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ RUN ] app\admin\controller\User->edit[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
 [ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\edit.html [ array (
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\edit.html [ array (
   0 => 'auth_group',
   1 => 'data',
 ) ]
@@ -2646,7 +2646,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T13:04:49+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/edit.html?id=96
 [ info ] lsadmin.zhengdoudou.cn/admin/user/edit.html?id=96 [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,637.33kb] [文件加载：40]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -2673,9 +2673,9 @@
 [ info ] [ PARAM ] array (
   'id' => '96',
 )
-[ info ] [ RUN ] app\admin\controller\User->edit[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ RUN ] app\admin\controller\User->edit[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
 [ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\edit.html [ array (
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\edit.html [ array (
   0 => 'auth_group',
   1 => 'data',
 ) ]
@@ -2688,7 +2688,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T13:04:59+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/auth/showrole.html
 [ info ] lsadmin.zhengdoudou.cn/admin/auth/showrole.html [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,914.24kb] [文件加载：47]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -2722,8 +2722,8 @@
   'auto_start' => true,
 )
 [ info ] [ DB ] INIT mysql
-[ info ] [ RUN ] app\admin\controller\auth->showRole[ D:\web-tb\lotusadmin���\code\application\admin\controller\Auth.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\auth\role.html [ array (
+[ info ] [ RUN ] app\admin\controller\auth->showRole[ D:\web-tb\lotusadmin���\code\application\admin\controller\Auth.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\auth\role.html [ array (
   0 => 'menu',
   1 => 'role',
 ) ]
@@ -2740,7 +2740,7 @@
 ---------------------------------------------------------------
 [ 2018-01-15T13:16:14+08:00 ] 0.0.0.0 218.85.72.17 GET /
 [ info ] lsadmin.zhengdoudou.cn/ [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,023.57kb] [文件加载：33]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -2764,14 +2764,14 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File
 ---------------------------------------------------------------
 [ 2018-01-15T15:27:09+08:00 ] 0.0.0.0 58.209.99.68 GET /
 [ info ] lsadmin.zhengdoudou.cn/ [运行时间：0.015624s][吞吐率：64.00req/s] [内存消耗：1,023.00kb] [文件加载：33]
-[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -2794,7 +2794,7 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
-[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File
