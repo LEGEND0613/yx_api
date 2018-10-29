@@ -1,0 +1,117 @@
+{include file='public/head'}
+<body>
+    <div class="x-body" >
+    <fieldset class="layui-elem-field">
+          <legend>仓库</legend>
+          <div class="layui-field-box">
+              <button class="layui-btn layui-btn-small " onclick="x_admin_show('添加接口','showAddApi.html',500,420)"><i class="layui-icon" style="font-size: 30px; ">&#xe61f;</i>添加接口</button>
+              *AcessToken(测试推荐禁用)
+        <button  onclick="javascript:window.location.href = '{:url("admin/api/app_list")}'" class="layui-btn layui-btn-small x-right">
+        <i class="layui-icon" style="font-size: 30px; ">&#xe65c;</i>返回  
+        </button>
+         <button onclick="javascript:location.reload()" class="layui-btn layui-btn-small x-right">刷新</button>
+          <table class="layui-table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>名称</th>
+            <th>BASE_URL</th>
+            <th>hash</th>
+            <th>传输方式</th>
+            <th>AcessToken</th>
+            <th>参数</th>
+            <th>测试</th>
+            <th>操作</th>
+        </thead>
+        <tbody>
+            {volist name='data' id='vo'}
+            <tr>
+                 <td>{$vo.id}</td>
+                 <td>{$vo.name}</td>
+                 <td>{$vo.base_url}</td>
+                 <td>{$vo.hash}</td>
+                 <td>{$vo.method}</td>
+
+                 <td>
+                    {eq name="vo.is_token" value="0"}
+                    <button type="button" onClick="change_status('{$vo.id}','{$vo.is_token}')" class="layui-btn layui-btn-mini layui-btn-danger">禁用</button>
+                    {else/}
+                    <button type="button" onClick="change_status('{$vo.id}','{$vo.is_token}')" class="layui-btn layui-btn-mini ">启用</button>
+                    {/eq}
+                </td>
+
+                <td>{$vo.param}</td>
+                <td>
+                    <button type="button" onClick="x_admin_show('接口参数(多个参数用|分割)','param.html?id={$vo.id}',800,190)" class="layui-btn layui-btn-mini">测试参数</button> 
+                    <button type="button" onClick="x_admin_show('测试结果','doTest.html?id={$vo.id}',800,390)" class="layui-btn layui-btn-mini">执行测试</button>
+                </td>  
+                <td>     
+                        
+                        <button type="button" onclick="x_admin_show('编辑菜单',
+                        'show_edit_api.html?id={$vo.id}',500,420)" class="layui-btn layui-btn-mini">编辑
+                        </button>
+                       
+                         
+                        <button type="button" onClick="delete_api({$vo.id})" class="layui-btn layui-btn-mini layui-btn-danger">删除</button>
+
+                 </td>
+               
+            </tr>
+            {/volist}
+        </tbody>
+    </table>
+          <div class="page">
+            <div>
+               {$data->render()}
+            </div>
+          </div>
+          </div>
+    </fieldset>
+    </div>
+</body>
+
+<script type="text/javascript">
+    function change_status(id,is_token){
+            $.post("{:url('admin/api/change_status')}", {id:id,is_token: is_token}, function(data, textStatus, xhr) {
+                        if(data.code==0){
+                            layer.msg(data.msg);
+                        }else{
+                            layer.msg(data.msg,{icon:1,time:500},function(){
+                                $("#reset").click();
+                                x_admin_close();
+                                location.reload();
+                            });
+                        }
+             });
+    }
+    function delete_api(id){
+        layer.confirm('确定要删除吗?',{
+          btn: ['确定','取消'] //按钮
+        },function(){
+            $.post("{:url('admin/api/delete_api')}", {id:id}, function(data, textStatus, xhr) {
+                /*optional stuff to do after success */
+                if(data.code==0){
+                            layer.msg(data.msg);
+                        }else{
+                            layer.msg(data.msg,{icon:1,time:500},function(){
+                                $("#reset").click();
+                                x_admin_close();
+                                location.reload();
+                            });
+                }
+            });
+        });  
+    }
+    function doTest(id){
+       $.ajax({
+         url: 'doTest',
+         type: 'post',
+         dataType: 'json',
+         data: {id:id},
+       })
+       .done(function(data){
+            
+       })
+    }
+</script>
+{include file="public/foot"}

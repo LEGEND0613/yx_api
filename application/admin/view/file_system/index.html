@@ -1,0 +1,129 @@
+{include file="public/head"}
+    <body>
+    <link rel="stylesheet" type="text/css" href="__static__/css/webuploader.css" />
+    <div class="x-body">
+
+
+       <button class="layui-btn layui-btn-small "
+        onclick="x_admin_show('上传图片','upload.html',500,500)"></i>上传图片</button>
+        <button onclick="javascript:location.reload()" class="layui-btn layui-btn-small">刷新</button>
+
+      <span class="x-right" style="line-height:40px">共有数据:<i class="i_count">{$data->total()}</i>条</span>
+
+    <table class="layui-table">
+        <thead>
+          <tr>
+            <th>
+              <div class="header layui-form-checkbox" lay-skin="primary"><i class="layui-icon">&#xe605;</i></div>
+            </th>
+            <th>ID</th>
+            <th>URL(双击放大)</th>
+            <th>Size</th>
+            <th>操作</th>
+        </thead>
+        <tbody>
+
+        {volist name="data" id="vo"}
+            <tr id='{$vo.id}' ondblclick="tClick({$vo.id})">
+                <td>
+                  <div class="layui-form-checkbox" lay-skin="primary" data-id='2'><i class="layui-icon">&#xe605;</i></div>
+                </td>
+                <td>{$vo.id}</td>
+                <td class="url"><img src="{$vo.url}" alt=""> </td>
+                <td>{$vo.size}</td>
+                <td>
+                  <button onclick="del(this,{$vo.id})" class="layui-btn layui-btn-mini layui-btn-danger">删除</button>
+               </td>
+            </tr>
+        {/volist}
+
+        </tbody>
+      </table>
+          <div class="page">
+            <div>
+                {$data->render()}
+            </div>
+          </div>
+    </div>
+</body>
+
+    <script>
+      layui.use(['laydate','form'], function(){
+        var laydate = layui.laydate;
+        //执行一个laydate实例
+        laydate.render({
+          elem: '#start' //指定元素
+        });
+        //执行一个laydate实例
+        laydate.render({
+          elem: '#end' //指定元素
+        });
+      });
+       /*用户-停用*/
+      function member_stop(obj,id){
+          layer.confirm('确认要停用吗？',function(index){
+              if($(obj).attr('title')=='启用'){
+                //发异步把用户状态进行更改
+                $(obj).attr('title','停用')
+                $(obj).find('i').html('&#xe62f;');
+
+                $(obj).parents("tr").find(".td-status").find('span').addClass('layui-btn-disabled').html('已停用');
+                layer.msg('已停用!',{icon: 5,time:1000});
+
+              }else{
+                $(obj).attr('title','启用')
+                $(obj).find('i').html('&#xe601;');
+
+                $(obj).parents("tr").find(".td-status").find('span').removeClass('layui-btn-disabled').html('已启用');
+                layer.msg('已启用!',{icon: 5,time:1000});
+              }
+
+          });
+      }
+
+      //删除所有
+      function delAll (argument) {
+        var data = tableCheck.getData();
+        layer.confirm('确认要全部删除吗？',function(index){
+            //捉到所有被选中的，发异步进行删除
+            layer.msg('删除成功', {icon: 1});
+            $(".layui-form-checked").not('.header').parents('tr').remove();
+        });
+      }
+
+      function del(obj,id){
+        var url = $("#"+id).children('td').children('img').attr('src');
+        var count = $(".i_count")[0].innerText;
+        layer.confirm('确认要删除吗？',function(index){
+            //捉到所有被选中的，发异步进行删除
+            $.post("{:url('admin/file_system/del')}", {id:id,url:url}, function(data, textStatus, xhr) {
+          /*optional stuff to do after success */
+              console.log(data);
+              if(data.code==1){
+                  layer.msg(data.msg,{icon:1,time:1000},function(){
+                    $(obj).parents('tr').remove();
+                    $(".i_count").html(count-1);
+                  });
+              }else{
+                  layer.msg(data.msg,{icon:2,time:1000});
+              }
+
+            });
+        });
+      }
+
+      function tClick(id){
+          var url = $('#'+id).children('td').children('img').attr('src');
+          //页面层
+          layer.open({
+            type: 1,
+            skin: '', //加上边框
+            area: ['900px', '648px'], //宽高
+            content: "<center style='margin-top:40px;'><img width='800' height='500' src="+url+"></center>"
+          });
+      }
+
+    </script>
+
+ </html>
+{include file="public/foot"}

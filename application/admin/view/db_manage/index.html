@@ -1,0 +1,42 @@
+{include file="public/head"}
+    <body>
+    <div class="x-body" >
+        <button class="layui-btn layui-btn-small " onclick="">
+        </i>一键优化</button>
+        <button onclick="javascript:location.reload()" class="layui-btn layui-btn-small">刷新</button>
+        <span class="x-right" style="line-height:40px">数据库表数量:{$count}</span>
+    
+
+    <table class="layui-table">
+        <thead>
+          <tr>
+            <th>
+              <div class="header layui-form-checkbox" lay-skin="primary"><i class="layui-icon">&#xe605;</i></div>
+            </th>
+            <th>数据表</th>
+            <th>操作</th>
+        </thead>
+        <tbody>
+          {foreach $db_names as $vo}
+            <tr>
+                <td>
+                  <div class="layui-form-checkbox" lay-skin="primary" data-id='2'><i class="layui-icon">&#xe605;</i></div>
+                </td>
+                <td>{$vo}</td>
+                <td>
+                    <button class="layui-btn layui-btn-mini">优化</button>
+                    <button class="layui-btn layui-btn-mini">修复</button>
+                </td>
+            </tr>
+        {/foreach}
+        </tbody>
+      </table>
+	      <div class="page">
+	        <div>
+
+	        </div>
+	      </div>
+    </div>
+</body>
+
+{include file="public/foot"}

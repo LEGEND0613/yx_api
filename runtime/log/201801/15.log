@@ -1,0 +1,2800 @@
+---------------------------------------------------------------
+[ 2018-01-15T10:54:37+08:00 ] 0.0.0.0 218.85.72.17 GET /
+[ info ] lsadmin.zhengdoudou.cn/ [运行时间：0.031249s][吞吐率：32.00req/s] [内存消耗：1,149.52kb] [文件加载：35]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T10:54:39+08:00 ] 0.0.0.0 218.85.72.17 GET /
+[ info ] lsadmin.zhengdoudou.cn/ [运行时间：0.015624s][吞吐率：64.00req/s] [内存消耗：1,022.26kb] [文件加载：33]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T10:54:44+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index
+[ info ] lsadmin.zhengdoudou.cn/admin/user/index [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,158.78kb] [文件加载：35]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/index',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T10:54:48+08:00 ] 0.0.0.0 218.85.72.17 GET /
+[ info ] lsadmin.zhengdoudou.cn/ [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,022.92kb] [文件加载：33]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => 'PHPSESSID=iig1jhmi4gmc6qhsnrji3ci555; __guid=61925169.3022524570341715000.1515984883595.1274; monitor_count=1',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T10:55:06+08:00 ] 0.0.0.0 218.85.72.17 GET /
+[ info ] lsadmin.zhengdoudou.cn/ [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,022.61kb] [文件加载：33]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T10:55:08+08:00 ] 0.0.0.0 120.92.11.152 GET /
+[ info ] lsadmin.zhengdoudou.cn/ [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,022.15kb] [文件加载：33]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36Connect Us: webauth@cmcm.com',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T10:55:27+08:00 ] 0.0.0.0 218.85.72.17 GET /
+[ info ] lsadmin.zhengdoudou.cn/ [运行时间：0.000000s][吞吐率：∞req/s] [内存消耗：1,023.44kb] [文件加载：33]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; monitor_count=1',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T10:55:37+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index
+[ info ] lsadmin.zhengdoudou.cn/admin/user/index [运行时间：0.015624s][吞吐率：64.00req/s] [内存消耗：1,042.23kb] [文件加载：33]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/index',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; monitor_count=2',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T10:55:42+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/user/login
+[ info ] lsadmin.zhengdoudou.cn/admin/user/login [运行时间：0.046873s][吞吐率：21.33req/s] [内存消耗：1,784.14kb] [文件加载：43]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '29',
+  'x-original-url' => '/admin/user/login',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lsadmin.zhengdoudou.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_user` [ RunTime:0.015624s ]
+[ sql ] [ SQL ] SELECT `id` FROM `sm_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `password` FROM `sm_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T10:55:47+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/user/login
+[ info ] lsadmin.zhengdoudou.cn/admin/user/login [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,835.43kb] [文件加载：44]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '30',
+  'x-original-url' => '/admin/user/login',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lsadmin.zhengdoudou.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_user` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `id` FROM `sm_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `password` FROM `sm_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `sm_user`  SET `last_login_ip`='218.85.72.17',`last_login_time`='2018-01-15 10:55:47'  WHERE  `username` = 'admin' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T10:55:50+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index/index
+[ info ] lsadmin.zhengdoudou.cn/admin/user/index/index [运行时间：0.015624s][吞吐率：64.00req/s] [内存消耗：1,091.04kb] [文件加载：34]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/index/index',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T10:55:51+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/index.html
+[ info ] lsadmin.zhengdoudou.cn/admin/index/index.html [运行时间：0.046874s][吞吐率：21.33req/s] [内存消耗：1,846.30kb] [文件加载：45]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index/index',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=4',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T10:55:52+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/welcome.html
+[ info ] lsadmin.zhengdoudou.cn/admin/index/welcome.html [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,799.90kb] [文件加载：44]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/index/welcome.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/index/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015624s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T10:55:54+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index
+[ info ] lsadmin.zhengdoudou.cn/admin/user/index [运行时间：0.031249s][吞吐率：32.00req/s] [内存消耗：1,090.89kb] [文件加载：34]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/index',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T10:55:55+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/index.html
+[ info ] lsadmin.zhengdoudou.cn/admin/index/index.html [运行时间：0.078123s][吞吐率：12.80req/s] [内存消耗：1,715.90kb] [文件加载：43]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=6',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T10:55:55+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/welcome.html
+[ info ] lsadmin.zhengdoudou.cn/admin/index/welcome.html [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,667.70kb] [文件加载：42]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/index/welcome.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/index/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T10:55:58+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/logout.html
+[ info ] lsadmin.zhengdoudou.cn/admin/user/logout.html [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,105.82kb] [文件加载：35]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/logout.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/index/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->logOut[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T10:55:59+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index.html
+[ info ] lsadmin.zhengdoudou.cn/admin/user/index.html [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,042.62kb] [文件加载：33]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/index/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T11:17:14+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index.html
+[ info ] lsadmin.zhengdoudou.cn/admin/user/index.html [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,042.44kb] [文件加载：33]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=8',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T12:02:48+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/user/login
+[ info ] lsadmin.zhengdoudou.cn/admin/user/login [运行时间：0.046874s][吞吐率：21.33req/s] [内存消耗：1,783.21kb] [文件加载：43]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '19',
+  'x-original-url' => '/admin/user/login',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lsadmin.zhengdoudou.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=9',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_user` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `id` FROM `sm_user` WHERE  `username` = '' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:02:49+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/user/login
+[ info ] lsadmin.zhengdoudou.cn/admin/user/login [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,783.29kb] [文件加载：43]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '19',
+  'x-original-url' => '/admin/user/login',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lsadmin.zhengdoudou.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=9',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `sm_user` WHERE  `username` = '' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:02:54+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/user/login
+[ info ] lsadmin.zhengdoudou.cn/admin/user/login [运行时间：0.046874s][吞吐率：21.33req/s] [内存消耗：1,784.13kb] [文件加载：43]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '29',
+  'x-original-url' => '/admin/user/login',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lsadmin.zhengdoudou.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=9',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `sm_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `password` FROM `sm_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:02:58+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/user/login
+[ info ] lsadmin.zhengdoudou.cn/admin/user/login [运行时间：0.031249s][吞吐率：32.00req/s] [内存消耗：1,835.45kb] [文件加载：44]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '30',
+  'x-original-url' => '/admin/user/login',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lsadmin.zhengdoudou.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=9',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_user` [ RunTime:0.015624s ]
+[ sql ] [ SQL ] SELECT `id` FROM `sm_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `password` FROM `sm_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `sm_user`  SET `last_login_ip`='218.85.72.17',`last_login_time`='2018-01-15 12:02:58'  WHERE  `username` = 'admin' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:03:01+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index/index
+[ info ] lsadmin.zhengdoudou.cn/admin/user/index/index [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,091.02kb] [文件加载：34]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/index/index',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=9',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T12:03:02+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/index.html
+[ info ] lsadmin.zhengdoudou.cn/admin/index/index.html [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,715.89kb] [文件加载：43]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index/index',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=10',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:03:02+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/welcome.html
+[ info ] lsadmin.zhengdoudou.cn/admin/index/welcome.html [运行时间：0.046873s][吞吐率：21.33req/s] [内存消耗：1,667.70kb] [文件加载：42]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/index/welcome.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/index/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=11',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015624s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:03:05+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index.html
+[ info ] lsadmin.zhengdoudou.cn/admin/user/index.html [运行时间：0.015624s][吞吐率：64.00req/s] [内存消耗：1,090.65kb] [文件加载：34]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=11',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T12:03:05+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/index.html
+[ info ] lsadmin.zhengdoudou.cn/admin/index/index.html [运行时间：0.046873s][吞吐率：21.33req/s] [内存消耗：1,715.80kb] [文件加载：43]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=12',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015624s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:03:05+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/welcome.html
+[ info ] lsadmin.zhengdoudou.cn/admin/index/welcome.html [运行时间：0.046874s][吞吐率：21.33req/s] [内存消耗：1,667.70kb] [文件加载：42]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/index/welcome.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/index/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=13',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015624s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:03:09+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/logout.html
+[ info ] lsadmin.zhengdoudou.cn/admin/user/logout.html [运行时间：0.000000s][吞吐率：∞req/s] [内存消耗：1,105.80kb] [文件加载：35]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/logout.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/index/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=13',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->logOut[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T12:03:09+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index.html
+[ info ] lsadmin.zhengdoudou.cn/admin/user/index.html [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,042.66kb] [文件加载：33]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/index/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=13',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T12:06:00+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index.html
+[ info ] lsadmin.zhengdoudou.cn/admin/user/index.html [运行时间：0.015624s][吞吐率：64.00req/s] [内存消耗：1,159.66kb] [文件加载：35]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=14',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T12:07:49+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/user/login
+[ info ] lsadmin.zhengdoudou.cn/admin/user/login [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,835.45kb] [文件加载：44]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '30',
+  'x-original-url' => '/admin/user/login',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lsadmin.zhengdoudou.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=15',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015624s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `sm_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `password` FROM `sm_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `sm_user`  SET `last_login_ip`='218.85.72.17',`last_login_time`='2018-01-15 12:07:49'  WHERE  `username` = 'admin' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:07:53+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index/index
+[ info ] lsadmin.zhengdoudou.cn/admin/user/index/index [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,091.00kb] [文件加载：34]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/index/index',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=15',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T12:07:53+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/index.html
+[ info ] lsadmin.zhengdoudou.cn/admin/index/index.html [运行时间：0.046873s][吞吐率：21.33req/s] [内存消耗：1,715.89kb] [文件加载：43]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index/index',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=16',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015624s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:07:54+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/welcome.html
+[ info ] lsadmin.zhengdoudou.cn/admin/index/welcome.html [运行时间：0.046873s][吞吐率：21.33req/s] [内存消耗：1,667.70kb] [文件加载：42]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/index/welcome.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/index/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=17',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015624s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:07:59+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/db_manage/index.html
+[ info ] lsadmin.zhengdoudou.cn/admin/db_manage/index.html [运行时间：0.046873s][吞吐率：21.33req/s] [内存消耗：1,788.73kb] [文件加载：44]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'db_manage',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/db_manage/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/index/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=17',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\DbManage->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\DbManage.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\db_manage\index.html [ array (
+  0 => 'menu',
+  1 => 'db_names',
+  2 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.015624s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW TABLES [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:08:00+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/userlist.html
+[ info ] lsadmin.zhengdoudou.cn/admin/user/userlist.html [运行时间：0.031249s][吞吐率：32.00req/s] [内存消耗：1,900.99kb] [文件加载：46]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/userlist.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/index/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=17',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->userlist[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\userlist.html [ array (
+  0 => 'users',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sm_user` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_user` ORDER BY id asc LIMIT 0,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:08:02+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/edit.html?id=1
+[ info ] lsadmin.zhengdoudou.cn/admin/user/edit.html?id=1 [运行时间：0.078122s][吞吐率：12.80req/s] [内存消耗：1,761.52kb] [文件加载：42]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/edit.html?id=1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/userlist.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=17',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\User->edit[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\edit.html [ array (
+  0 => 'auth_group',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031249s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`group_id` FROM `sm_user` `a` LEFT JOIN `sm_auth_group_access` `b` ON `b`.`uid`=`a`.`id` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `sm_auth_group` ORDER BY id desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:52:31+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/file_system/index.html
+[ info ] lsadmin.zhengdoudou.cn/admin/file_system/index.html [运行时间：0.093747s][吞吐率：10.67req/s] [内存消耗：1,932.65kb] [文件加载：48]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'file_system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/file_system/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/index/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=17',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\FileSystem->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\FileSystem.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\file_system\index.html [ array (
+  0 => 'menu',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.015624s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_file` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sm_file` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_file` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:52:33+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/file_system/upload.html
+[ info ] lsadmin.zhengdoudou.cn/admin/file_system/upload.html [运行时间：0.031249s][吞吐率：32.00req/s] [内存消耗：1,843.65kb] [文件加载：45]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'file_system',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/file_system/upload.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/file_system/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=17',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\FileSystem->upload[ D:\web-tb\lotusadmin���\code\application\admin\controller\FileSystem.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\file_system\upload.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.015625s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:53:00+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/file_system/upload.html
+[ info ] lsadmin.zhengdoudou.cn/admin/file_system/upload.html [运行时间：0.078123s][吞吐率：12.80req/s] [内存消耗：1,846.98kb] [文件加载：46]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'file_system',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryOjcm7NgIGdBusGWU',
+  'content-length' => '31457',
+  'x-original-url' => '/admin/file_system/upload.html',
+  'origin' => 'http://lsadmin.zhengdoudou.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/file_system/upload.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=17',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'WU_FILE_0',
+  'name' => 'logo (2).png',
+  'type' => 'image/png',
+  'lastModifiedDate' => 'Wed Jan 03 2018 00:01:03 GMT+0800 (中国标准时间)',
+  'size' => '30718',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\FileSystem->upload[ D:\web-tb\lotusadmin���\code\application\admin\controller\FileSystem.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'menu',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015624s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_file` [ RunTime:0.015624s ]
+[ sql ] [ SQL ] INSERT INTO `sm_file` (`size` , `url`) VALUES ('30k' , '\\public\\uploads\\20180115\\2ecb9b3e9861f18b68e456bfcbc0f21d.png') [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:53:03+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/file_system/index.html
+[ info ] lsadmin.zhengdoudou.cn/admin/file_system/index.html [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,811.73kb] [文件加载：46]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'file_system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/file_system/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/file_system/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=17',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\FileSystem->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\FileSystem.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\file_system\index.html [ array (
+  0 => 'menu',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.015624s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_file` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sm_file` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_file` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:53:11+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/file_system/index.html
+[ info ] lsadmin.zhengdoudou.cn/admin/file_system/index.html [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,811.73kb] [文件加载：46]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'file_system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/file_system/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/index/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=p2bavf4gia94cp2tup6unmgff4; monitor_count=17',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\FileSystem->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\FileSystem.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\file_system\index.html [ array (
+  0 => 'menu',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015624s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_file` [ RunTime:0.015624s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sm_file` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_file` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:54:35+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index.html
+[ info ] lsadmin.zhengdoudou.cn/admin/user/index.html [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,042.01kb] [文件加载：33]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; monitor_count=17',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T12:54:41+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/user/login
+[ info ] lsadmin.zhengdoudou.cn/admin/user/login [运行时间：0.031249s][吞吐率：32.00req/s] [内存消耗：1,835.43kb] [文件加载：44]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '30',
+  'x-original-url' => '/admin/user/login',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lsadmin.zhengdoudou.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=7tm1jdc8n4ukhj3a6bo612gfm7; monitor_count=18',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_user` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `id` FROM `sm_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `password` FROM `sm_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `sm_user`  SET `last_login_ip`='218.85.72.17',`last_login_time`='2018-01-15 12:54:41'  WHERE  `username` = 'admin' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:54:44+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/user/login
+[ info ] lsadmin.zhengdoudou.cn/admin/user/login [运行时间：0.031249s][吞吐率：32.00req/s] [内存消耗：1,835.45kb] [文件加载：44]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '30',
+  'x-original-url' => '/admin/user/login',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lsadmin.zhengdoudou.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=7tm1jdc8n4ukhj3a6bo612gfm7; monitor_count=18',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_user` [ RunTime:0.015624s ]
+[ sql ] [ SQL ] SELECT `id` FROM `sm_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `password` FROM `sm_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `sm_user`  SET `last_login_ip`='218.85.72.17',`last_login_time`='2018-01-15 12:54:44'  WHERE  `username` = 'admin' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:54:45+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index/index
+[ info ] lsadmin.zhengdoudou.cn/admin/user/index/index [运行时间：0.015624s][吞吐率：64.00req/s] [内存消耗：1,091.00kb] [文件加载：34]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/index/index',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=7tm1jdc8n4ukhj3a6bo612gfm7; monitor_count=18',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T12:54:45+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/index.html
+[ info ] lsadmin.zhengdoudou.cn/admin/index/index.html [运行时间：0.046874s][吞吐率：21.33req/s] [内存消耗：1,715.89kb] [文件加载：43]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index/index',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=7tm1jdc8n4ukhj3a6bo612gfm7; monitor_count=19',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.015624s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:54:45+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/welcome.html
+[ info ] lsadmin.zhengdoudou.cn/admin/index/welcome.html [运行时间：0.046873s][吞吐率：21.33req/s] [内存消耗：1,667.70kb] [文件加载：42]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/index/welcome.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/index/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=7tm1jdc8n4ukhj3a6bo612gfm7; monitor_count=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015624s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:54:47+08:00 ] 0.0.0.0 218.85.72.17 GET /
+[ info ] lsadmin.zhengdoudou.cn/ [运行时间：0.015624s][吞吐率：64.00req/s] [内存消耗：1,023.91kb] [文件加载：33]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/index/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=7tm1jdc8n4ukhj3a6bo612gfm7; monitor_count=20',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T12:54:58+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/index.html
+[ info ] lsadmin.zhengdoudou.cn/admin/index/index.html [运行时间：0.046874s][吞吐率：21.33req/s] [内存消耗：1,715.89kb] [文件加载：43]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index/index',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=7tm1jdc8n4ukhj3a6bo612gfm7; monitor_count=21',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015624s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:54:58+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/welcome.html
+[ info ] lsadmin.zhengdoudou.cn/admin/index/welcome.html [运行时间：0.046873s][吞吐率：21.33req/s] [内存消耗：1,667.70kb] [文件加载：42]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/index/welcome.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/index/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=7tm1jdc8n4ukhj3a6bo612gfm7; monitor_count=22',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015624s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T12:55:00+08:00 ] 0.0.0.0 218.85.72.17 GET /
+[ info ] lsadmin.zhengdoudou.cn/ [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,023.91kb] [文件加载：33]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/index/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=7tm1jdc8n4ukhj3a6bo612gfm7; monitor_count=22',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T13:00:39+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index.html
+[ info ] lsadmin.zhengdoudou.cn/admin/user/index.html [运行时间：0.015624s][吞吐率：64.00req/s] [内存消耗：1,041.96kb] [文件加载：33]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; monitor_count=23',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T13:04:12+08:00 ] 0.0.0.0 218.85.72.17 POST /admin/user/login
+[ info ] lsadmin.zhengdoudou.cn/admin/user/login [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,835.43kb] [文件加载：44]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '30',
+  'x-original-url' => '/admin/user/login',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lsadmin.zhengdoudou.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=s0i88vu5lmqjdp7rp6mmn56gm1; monitor_count=24',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\User->login[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `sm_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `password` FROM `sm_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `sm_user`  SET `last_login_ip`='218.85.72.17',`last_login_time`='2018-01-15 01:04:12'  WHERE  `username` = 'admin' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T13:04:15+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/index/index
+[ info ] lsadmin.zhengdoudou.cn/admin/user/index/index [运行时间：0.031249s][吞吐率：32.00req/s] [内存消耗：1,091.00kb] [文件加载：34]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/index/index',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=s0i88vu5lmqjdp7rp6mmn56gm1; monitor_count=24',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T13:04:16+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/index.html
+[ info ] lsadmin.zhengdoudou.cn/admin/index/index.html [运行时间：0.046874s][吞吐率：21.33req/s] [内存消耗：1,715.89kb] [文件加载：43]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/index/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/index/index',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=s0i88vu5lmqjdp7rp6mmn56gm1; monitor_count=25',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015624s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T13:04:16+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/index/welcome.html
+[ info ] lsadmin.zhengdoudou.cn/admin/index/welcome.html [运行时间：0.046873s][吞吐率：21.33req/s] [内存消耗：1,667.70kb] [文件加载：42]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/index/welcome.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/index/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=s0i88vu5lmqjdp7rp6mmn56gm1; monitor_count=26',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\web-tb\lotusadmin���\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\index\welcome.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T13:04:27+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/file_system/index.html
+[ info ] lsadmin.zhengdoudou.cn/admin/file_system/index.html [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,811.73kb] [文件加载：46]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'file_system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/file_system/index.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/index/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=s0i88vu5lmqjdp7rp6mmn56gm1; monitor_count=26',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\FileSystem->index[ D:\web-tb\lotusadmin���\code\application\admin\controller\FileSystem.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\file_system\index.html [ array (
+  0 => 'menu',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.015624s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_file` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sm_file` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_file` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T13:04:36+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/userlist.html
+[ info ] lsadmin.zhengdoudou.cn/admin/user/userlist.html [运行时间：0.046874s][吞吐率：21.33req/s] [内存消耗：1,776.11kb] [文件加载：44]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/userlist.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/index/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=s0i88vu5lmqjdp7rp6mmn56gm1; monitor_count=26',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->userlist[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\userlist.html [ array (
+  0 => 'users',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_user` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sm_user` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_user` ORDER BY id asc LIMIT 0,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T13:04:41+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/edit.html?id=1
+[ info ] lsadmin.zhengdoudou.cn/admin/user/edit.html?id=1 [运行时间：0.046874s][吞吐率：21.33req/s] [内存消耗：1,637.34kb] [文件加载：40]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/edit.html?id=1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/userlist.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=s0i88vu5lmqjdp7rp6mmn56gm1; monitor_count=26',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\User->edit[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\edit.html [ array (
+  0 => 'auth_group',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015624s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`group_id` FROM `sm_user` `a` LEFT JOIN `sm_auth_group_access` `b` ON `b`.`uid`=`a`.`id` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `sm_auth_group` ORDER BY id desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T13:04:49+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/user/edit.html?id=96
+[ info ] lsadmin.zhengdoudou.cn/admin/user/edit.html?id=96 [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,637.33kb] [文件加载：40]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/user/edit.html?id=96',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/user/userlist.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=s0i88vu5lmqjdp7rp6mmn56gm1; monitor_count=26',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '96',
+)
+[ info ] [ RUN ] app\admin\controller\User->edit[ D:\web-tb\lotusadmin���\code\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\user\edit.html [ array (
+  0 => 'auth_group',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`group_id` FROM `sm_user` `a` LEFT JOIN `sm_auth_group_access` `b` ON `b`.`uid`=`a`.`id` WHERE  `id` = 96 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `sm_auth_group` ORDER BY id desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T13:04:59+08:00 ] 0.0.0.0 218.85.72.17 GET /admin/auth/showrole.html
+[ info ] lsadmin.zhengdoudou.cn/admin/auth/showrole.html [运行时间：0.062498s][吞吐率：16.00req/s] [内存消耗：1,914.24kb] [文件加载：47]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth',
+    2 => 'showrole',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'x-original-url' => '/admin/auth/showrole.html',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://lsadmin.zhengdoudou.cn/admin/index/index.html',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=s0i88vu5lmqjdp7rp6mmn56gm1; monitor_count=26',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\auth->showRole[ D:\web-tb\lotusadmin���\code\application\admin\controller\Auth.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/admin\view\auth\role.html [ array (
+  0 => 'menu',
+  1 => 'role',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tb_lotusadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group_access` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `sm_auth_group_access` `AuthGroupAccess` LEFT JOIN `sm_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_rule` [ RunTime:0.015624s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `sm_auth_rule` WHERE  `id` IN (1,2,3,103)  AND `type` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sm_auth_group` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sm_auth_group` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `sm_auth_group` ORDER BY id desc LIMIT 0,15 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-15T13:16:14+08:00 ] 0.0.0.0 218.85.72.17 GET /
+[ info ] lsadmin.zhengdoudou.cn/ [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,023.57kb] [文件加载：33]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'cookie' => '__guid=61925169.3022524570341715000.1515984883595.1274; PHPSESSID=s0i88vu5lmqjdp7rp6mmn56gm1; monitor_count=26',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-15T15:27:09+08:00 ] 0.0.0.0 58.209.99.68 GET /
+[ info ] lsadmin.zhengdoudou.cn/ [运行时间：0.015624s][吞吐率：64.00req/s] [内存消耗：1,023.00kb] [文件加载：33]
+[ info ] [ LANG ] D:\web-tb\lotusadmin���\code\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'host' => 'lsadmin.zhengdoudou.cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web-tb\lotusadmin���\code\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\web-tb\lotusadmin���\code/application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,71 @@
+{include file='public/head'}
+
+<body>
+    <div class="x-body" >
+    <button class="layui-btn layui-btn-small " onclick="x_admin_show('添加接口','show_add_app.html',500,320)"></i>添加应用</button>
+    <button onclick="javascript:location.reload()" class="layui-btn layui-btn-small">刷新</button>
+    <span class="x-right" style="line-height:40px">共有数据:{$data->count()}</span>
+    <table class="layui-table">
+        <thead>
+          <tr>
+            <th>AppID</th>
+            <th>名称</th>
+            <th>SECRET</th>
+            <th>API</th>
+            <th>操作</th>
+        </thead>
+        <tbody>
+            {volist name="data" id="vo"}
+                <tr>
+                    <td>{$vo.app_id}</td>
+                    <td>{$vo.name}</td>
+                    <td>{$vo.secret}</td>
+                    <td>
+                        <a type="button" href="index.html" class="layui-btn layui-btn-mini">
+                            <i class="layui-icon" style="font-size: 30px; ">&#xe63c;</i>
+                            进入仓库
+                        </a>
+                    </td>
+                    <td>
+                        <button type="button" onclick="x_admin_show('编辑应用',
+                        'show_edit_app.html?id={$vo.id}',500,300)" class="layui-btn layui-btn-mini">编辑
+                        </button>
+                        <a type="button" onClick="delete_app({$vo.id})" class="layui-btn layui-btn-mini layui-btn-danger">删除</button>
+                    </td>
+                </tr>
+            {/volist}
+        </tbody>
+    </table>
+	      <div class="page">
+	        <div>
+	          {$data->render()}
+	        </div>
+	      </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+    function delete_app(id){
+        layer.confirm('确定要删除吗?',{
+          btn: ['确定','取消'] //按钮
+        }, function(){
+            $.ajax({
+                url: 'delete_app',
+                type: 'post',
+                dataType: 'json',
+                data: {id:id},
+            })
+            .done(function(data){
+                console.log(data);
+                if(data.code==0){
+                    layer.msg(data.msg,{icon:5,time:500});
+                }else{
+                    layer.msg(data.msg,{icon:1,time:500},function(){
+                        location.reload();
+                    })
+                }
+            })
+        });
+    }    
+</script>
+{include file="public/foot"}
