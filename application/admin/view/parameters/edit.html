@@ -1,177 +1,133 @@
 {include file='public/head'}
+
 <body>
-<style type="text/css" media="screen">
-header {
-    color: black;
-}
-</style>
+	<style type="text/css" media="screen">
+		header {
+			color: black;
+		}
+	</style>
 
 
-<div class="x-body" >
-	<form class="layui-form" id='mainForm' method="post" action="editDevice">
+	<div class="x-body">
+		<form class="layui-form" id='mainForm' method="post" action="editParameters">
 
-		<input type="hidden" name="id" value="{$data.id}">
-		<div class="layui-form-item">
-		    <label class="layui-form-label">设备系列</label>
-		    <div class="layui-input-block">
-		    <input type="text" id="deviceClass" value="{$data.deviceClass}"  name="deviceClass" lay-verify="required|deviceClass" autocomplete="off" placeholder="请输入设备系列" class="layui-input">
-		    </div>
-		  </div>
-		  <div class="layui-form-item">
-		    <label class="layui-form-label">设备ID</label>
-		    <div class="layui-input-block">
-		    <input type="text" id="deviceId" value="{$data.deviceId}"  name="deviceId" lay-verify="required|deviceId" autocomplete="off" placeholder="请输入设备ID" class="layui-input">
-		    </div>
-		  </div>
-		  <div class="layui-form-item">
-		    <label class="layui-form-label">设备名称</label>
-		    <div class="layui-input-block">
-		    <input type="text" id="deviceName" value="{$data.deviceName}"  name="deviceName" lay-verify="required|deviceName" autocomplete="off" placeholder="请输入设备名称" class="layui-input">
-		    </div>
-		  </div>
-		  <div class="layui-form-item">
-		    <label class="layui-form-label">微信设备ID</label>
-		    <div class="layui-input-block">
-		    <input type="text" id="wxDeviceId" value="{$data.wxDeviceId}"  name="wxDeviceId" lay-verify="required|wxDeviceId" autocomplete="off" placeholder="请输入微信设备ID" class="layui-input">
-		    </div>
-		  </div>
-		  <div class="layui-form-item">
-		    <label class="layui-form-label">微信公众号ID</label>
-		    <div class="layui-input-block">
-		    <input type="text" id="wxDeviceType" value="{$data.wxDeviceType}"  name="wxDeviceType" lay-verify="required|wxDeviceType" autocomplete="off" placeholder="请输入微信公众号ID" class="layui-input">
-		    </div>
-		  </div>
-		  <div class="layui-form-item">
-		    <label class="layui-form-label">微信绑定者</label>
-		    <div class="layui-input-block">
-		    <input type="text" id="wxOpenId" value="{$data.wxOpenId}"  name="wxOpenId" lay-verify="required|wxOpenId" autocomplete="off" placeholder="请输入微信绑定者" class="layui-input">
-		    </div>
-		  </div>
-		  <div class="layui-form-item">
-		    <label class="layui-form-label">百度连接</label>
-		    <div class="layui-input-block">
-			
-		    <input type="text" id="mqttBaidu" value=""  name="mqttBaidu" lay-verify="required|mqttBaidu" autocomplete="off" placeholder="请输入百度连接" class="layui-input">
-		    </div>
-			</div>
-		
-		  <div class="layui-form-item">
-		    <label class="layui-form-label">百度设备MQQT主题</label>
-		    <div class="layui-input-block">
-		    <input type="text" id="mqttTopicToDevice" value="{$data.mqttTopicToDevice}"  name="mqttTopicToDevice" lay-verify="required|mqttTopicToDevice" autocomplete="off" placeholder="请输入百度MQQT主题" class="layui-input">
-		    </div>
+			<input type="hidden" name="id" value="{$data.id}">
+			<div class="layui-form-item">
+				<label class="layui-form-label">名称</label>
+				<div class="layui-input-block">
+					<input type="text" id="name" name="name" value="{$data.name}" lay-verify="required|name" autocomplete="off" placeholder="名称" class="layui-input">
+				</div>
 			</div>
 			<div class="layui-form-item">
-		    <label class="layui-form-label">百度控制端MQQT主题</label>
-		    <div class="layui-input-block">
-		    <input type="text" id="mqttTopicToControl" value="{$data.mqttTopicToControl}"  name="mqttTopicToControl" lay-verify="required|mqttTopicToControl" autocomplete="off" placeholder="请输入百度MQQT主题" class="layui-input">
-		    </div>
-		  </div>
-		  <div class="layui-form-item">
-		    <label class="layui-form-label">绑定状态</label>
-		    <div class="layui-input-block">
-		    <input type="text" id="writeStatus" value="{$data.writeStatus}"  name="writeStatus" lay-verify="required|writeStatus" autocomplete="off" placeholder="请输入绑定状态" class="layui-input">
-		    </div>
-		  </div>
-		  <div class="layui-form-item">
-		    <label class="layui-form-label">创建用户</label>
-		    <div class="layui-input-block">
-		    <input type="text" id="create_user" value="{$data.create_user}"  name="create_user" lay-verify="required|create_user" autocomplete="off" placeholder="请输入创建用户" class="layui-input">
-		    </div>
-		  </div>
-		  <div class="layui-form-item">
-		    <label class="layui-form-label">创建时间</label>
-		    <div class="layui-input-block">
-		    <input type="text" id="create_time" value="{$data.create_time}"  name="create_time" lay-verify="required|create_time" autocomplete="off" placeholder="请输入创建时间" class="layui-input">
-		    </div>
-		  </div>
-		  <div class="layui-form-item">
-		    <label class="layui-form-label">固件版本</label>
-		    <div class="layui-input-block">
-		    <input type="text" id="versions" value="{$data.versions}"  name="versions" lay-verify="required|versions" autocomplete="off" placeholder="请输入固件版本" class="layui-input">
-		    </div>
-		  </div>
+				<label class="layui-form-label">标识</label>
+				<div class="layui-input-block">
+					<input type="text" id="field" name="field"  value="{$data.field}" lay-verify="required|field" autocomplete="off" placeholder="请输入标识"
+					 class="layui-input">
+				</div>
+			</div>
+			<div class="layui-form-item">
+				<label class="layui-form-label">类型</label>
+				<div class="layui-input-block">
+					<input type="text" id="type" name="type" value="{$data.type}" lay-verify="required|type" autocomplete="off" placeholder="类型" class="layui-input">
+				</div>
+			</div>
+			<div class="layui-form-item">
+				<label class="layui-form-label">单位</label>
+				<div class="layui-input-block">
+					<input type="text" id="unit" name="unit" value="{$data.unit}" lay-verify="required|unit" autocomplete="off" placeholder="请输入单位" class="layui-input">
+				</div>
+			</div>
+			<div class="layui-form-item">
+				<label class="layui-form-label">rw</label>
+				<div class="layui-input-block">
+					<input type="text" id="rw" name="rw" value="{$data.rw}" lay-verify="required|rw" autocomplete="off" placeholder="请输入rw" class="layui-input">
+				</div>
+			</div>
+			<div class="layui-form-item">
+				<label class="layui-form-label">范围</label>
+				<div class="layui-input-block">
+					<input type="text" id="scope" name="scope" value="{$data.scope}" lay-verify="required|scope" autocomplete="off" placeholder="请输入范围"	 class="layui-input">
+				</div>
+			</div>
 
-		<div class="layui-form-item">
-		    <div class="layui-input-block">
-		      <button style="margin-left: 20%" class="layui-btn" lay-submit="" lay-filter="toSubmit">提交</button>
-		      <button id="reset" type="reset" class="layui-btn layui-btn-primary">重置</button>
-		    </div>
-		</div>
+			<div class="layui-form-item">
+				<div class="layui-input-block">
+					<button style="margin-left: 20%" class="layui-btn" lay-submit="" lay-filter="toSubmit">提交</button>
+					<button id="reset" type="reset" class="layui-btn layui-btn-primary">重置</button>
+				</div>
+			</div>
 
 
-	</form>
-</div>
+		</form>
+	</div>
 </body>
 
 
 <script type="text/javascript">
-		
-$('#mqttBaidu').val('{$data.mqttBaidu}');
-$('#mqttTopic').val('{$data.mqttTopic}');
-		var form = layui.form;
-		var layer = layui.layer;
-			  //自定义验证规则
-			  form.verify({
-			    username: function(value){
-			      if(value.length < 5){
-			        return '标题至少得5个字符啊';
-			      }
-			    }
-			  });
-		//监听提交
-		form.on('submit(demo1)', function(data){
-		      layer.alert(JSON.stringify(data.field), {
-		      title: '最终的提交信息'
-		    })
-		    return false;
-		  });
-	$(document).ready(function(){ 
-	    	// var options = { 
-	        // target:
-	        // target element(s) to be updated with server response 
-	        // beforeSubmit:  showRequest,  // pre-submit callback 
-	        // success: function(data){
-	        //  		console.log(data);
-	        //  },  
-	        // other available options: 
-	        //url:       url         // override for form's 'action' attribute 
-	        //type:      type        // 'get' or 'post', override for form's 'method' attribute 
-	        //dataType:  null        // 'xml', 'script', or 'json' (expected server response type) 
-	        //clearForm: true        // clear all form fields after successful submit 
-	        //resetForm: true        // reset the form after successful submit 
-	        // $.ajax options can be used here too, for example: 
-	        //timeout:   3000 
-	    // };
-	    var options = {
-		      type:'post',           //post提交
-		      // url:'http://ask.tongzhuo100.com/server/****.php?='+Math.random(),   //url
-		      dataType:"json",        //json格式
-		      data:{},    //如果需要提交附加参数，视情况添加
-		      clearForm: false,        //成功提交后，清除所有表单元素的值
-		      resetForm: false,        //成功提交后，重置所有表单元素的值
-		      cache:false,          
-		      async:false,          //同步返回
-		      success:function(data){
-		      	console.log(data);
-		      	if(data.code==0){
-		      		layer.msg(data.msg);
-		      	}else{
-		      		layer.msg(data.msg,{icon:1,time:500},function(){
-		      			$("#reset").click();
-		      			x_admin_close();
-		      			parent.location.reload();
-		      		});
-		      	}
-		        //服务器端返回处理逻辑
-		      },
-		      error:function(XmlHttpRequest,textStatus,errorThrown){
-		        layer.msg('操作失败:服务器处理失败');
-		      }
-		    }; 
 
-	    // bind form using 'ajaxForm' 
-	    $('#mainForm').ajaxForm(options).submit(function(data){}); 
+	var form = layui.form;
+	var layer = layui.layer;
+	//自定义验证规则
+	form.verify({
+		username: function (value) {
+			if (value.length < 5) {
+				return '标题至少得5个字符啊';
+			}
+		}
+	});
+	//监听提交
+	form.on('submit(demo1)', function (data) {
+		layer.alert(JSON.stringify(data.field), {
+			title: '最终的提交信息'
+		})
+		return false;
+	});
+	$(document).ready(function () {
+		// var options = { 
+		// target:
+		// target element(s) to be updated with server response 
+		// beforeSubmit:  showRequest,  // pre-submit callback 
+		// success: function(data){
+		//  		console.log(data);
+		//  },  
+		// other available options: 
+		//url:       url         // override for form's 'action' attribute 
+		//type:      type        // 'get' or 'post', override for form's 'method' attribute 
+		//dataType:  null        // 'xml', 'script', or 'json' (expected server response type) 
+		//clearForm: true        // clear all form fields after successful submit 
+		//resetForm: true        // reset the form after successful submit 
+		// $.ajax options can be used here too, for example: 
+		//timeout:   3000 
+		// };
+		var options = {
+			type: 'post',           //post提交
+			// url:'http://ask.tongzhuo100.com/server/****.php?='+Math.random(),   //url
+			dataType: "json",        //json格式
+			data: {},    //如果需要提交附加参数，视情况添加
+			clearForm: false,        //成功提交后，清除所有表单元素的值
+			resetForm: false,        //成功提交后，重置所有表单元素的值
+			cache: false,
+			async: false,          //同步返回
+			success: function (data) {
+				console.log(data);
+				if (data.code == 0) {
+					layer.msg(data.msg);
+				} else {
+					layer.msg(data.msg, { icon: 1, time: 500 }, function () {
+						$("#reset").click();
+						x_admin_close();
+						parent.location.reload();
+					});
+				}
+				//服务器端返回处理逻辑
+			},
+			error: function (XmlHttpRequest, textStatus, errorThrown) {
+				layer.msg('操作失败:服务器处理失败');
+			}
+		};
+
+		// bind form using 'ajaxForm' 
+		$('#mainForm').ajaxForm(options).submit(function (data) { });
 	});
 </script>
 {include file='public/foot'}

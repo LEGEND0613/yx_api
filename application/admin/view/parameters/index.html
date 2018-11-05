@@ -5,7 +5,7 @@
         <button class="layui-btn layui-btn-small " 
         onclick="x_admin_show('添加参数','add.html',500,410)"></i>添加参数</button>
         <button onclick="javascript:location.reload()" class="layui-btn layui-btn-small">刷新</button>
-        <span class="x-right" style="line-height:40px">共有数据:<i class="i_count">{$device->total()}</i>条</span>
+        <span class="x-right" style="line-height:40px">共有数据:<i class="i_count">{$parameters->total()}</i>条</span>
 
     <table class="layui-table">
         <thead>
@@ -15,45 +15,37 @@
             </th>
             <th>ID</th>
             <th>名称</th>
-            <th>field</th>
+            <th>标识</th>
             <th>状态</th>
-            <th>微信设备ID</th>
-            <th>微信公众号ID</th>
-            <th>微信绑定者</th>
-            <th>百度连接</th>
-            <th>百度MQQT设备主题</th>
-            <th>百度MQQT控制主题</th>
-            <th>绑定状态</th>
+            <th>类型</th>
+            <th>单位</th>
+            <th>rw</th>
+            <th>范围</th>          
             <th>创建用户</th>
-            <th>创建时间</th>
-            <th>固件版本</th>
+            <th>创建时间</th>      
             <th>操作</th>
         </thead>
         <tbody>
 
-        {volist name="device" id="vo"}
+        {volist name="parameters" id="vo"}
         	<tr>
 	            <td>
 	              <div class="layui-form-checkbox" lay-skin="primary" data-id='2'><i class="layui-icon">&#xe605;</i></div>
               </td>
 	            <td>{$vo.id}</td>
-	            <td>{$vo.deviceClass}</td>
-              <td>{$vo.deviceId}</td>
-	            <td>{$vo.deviceName}</td>	           
-              <td>{$vo.wxDeviceId}</td>
-              <td>{$vo.wxDeviceType}</td>
-	            <td>{$vo.wxOpenId}</td>
-              <td>{$vo.mqttBaidu}</td>
-              <td>{$vo.mqttTopicToDevice}</td>	
-              <td>{$vo.mqttTopicToControl}</td>           
-              <td>{$vo.writeStatus}</td>
+	            <td>{$vo.name}</td>
+              <td>{$vo.field}</td>
+	            <td>{$vo.status}</td>	           
+              <td>{$vo.type}</td>
+              <td>{$vo.unit}</td>
+	            <td>{$vo.rw}</td>
+              <td>{$vo.scope}</td>           
               <td>{$vo.create_user}</td>
-	            <td>{$vo.create_time}</td>
-              <td>{$vo.versions}</td>	           
+	            <td>{$vo.create_time}</td>	           
 	            <td>
 
-	<button class="layui-btn layui-btn-mini" onclick="x_admin_show('编辑设备','edit.html?id={$vo.id}',500,410)">编辑</button>
-	             	<button onclick="delDevice(this,{$vo.id})" class="layui-btn layui-btn-mini layui-btn-danger">删除</button>
+	<button class="layui-btn layui-btn-mini" onclick="x_admin_show('编辑参数','edit.html?id={$vo.id}',500,410)">编辑</button>
+	             	<button onclick="delParameters(this,{$vo.id})" class="layui-btn layui-btn-mini layui-btn-danger">删除</button>
 	           </td>
 	        </tr>
         {/volist}
@@ -62,14 +54,14 @@
       </table>
 	      <div class="page">
 	        <div>
-	        	{$device->render()}
+	        	{$parameters->render()}
 	        </div>
 	      </div>
     </div>
 </body>
     <script>
      
-      layui.device(['laydate','form'], function(){
+      layui.parameters(['laydate','form'], function(){
         var laydate = layui.laydate;
         //执行一个laydate实例
         laydate.render({
@@ -114,11 +106,11 @@
         });
       }
 
-      function delDevice(obj,id){
+      function delParameters(obj,id){
         var count = $(".i_count")[0].innerText;
         layer.confirm('确认要删除吗？',function(index){
             //捉到所有被选中的，发异步进行删除
-            $.post("{:url('admin/device/deleteDervice')}", {id: id}, function(data, textStatus, xhr) {
+            $.post("{:url('admin/Parameters/delParameters')}", {id: id}, function(data, textStatus, xhr) {
           /*optional stuff to do after success */
               console.log(data);
               if(data.code==1){

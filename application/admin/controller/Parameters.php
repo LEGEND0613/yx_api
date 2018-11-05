@@ -9,166 +9,123 @@ use think\Validate;
 class Parameters extends Controller
 {
 
-    public function index(){
-        return $this->fetch('login');
-    }
-
-    public function login()
+    public function index()
     {
-        $post     = $this->request->post();
-        if(empty($post)){
-            $this->redirect('user/index');
-        }
-        $validate = validate('User');
-        $validate->scene('login');
-        $username  =  $post['username'];
-        $user_id = Db::name('user')
-            ->where('username', $username)
-            ->value('id');
-        if (!$validate->check($post)) {
-            $this->error($validate->getError());
-        } else {
-            $sql_password = Db::name('user')
-                ->where('username', $post['username'])
-                ->value('password');
-            if (md5($post['password']) !== $sql_password) {
-                $this->error('密码错误');
-            } else {
-                session('username', $post['username']);
-                session('user_id', $user_id);
-                Db::name('user')
-                    ->where('username',$post['username'])
-                    ->update(['last_login_ip'=>$_SERVER['REMOTE_ADDR'],'last_login_time'=>date('Y-m-d h:i:s',time())]);
-                $this->success('登陆成功', 'index/index');
-            }
-        }
-    }
-    //注销
-    public function logOut()
-    {
-        session('username', null);
-        $this->redirect('admin/user/index');
-    }
-
-    public function userlist()
-    {
-        $data = Db::name('User')
+        $data = Db::name('parameters')
+            ->field('id,name,field,status,type,unit,rw,scope,create_user,create_time')
             ->order('id asc')
             ->paginate(12);
-        $this->assign('users', $data);
+        $this->assign('parameters', $data);
         return $this->fetch();
     }
     //打开新增界面
-    public function showAdd()
+    public function add()
     {
-        $auth_group = Db::name('auth_group')
-        ->field('id,title')
-        ->order('id desc')
-        ->select();
-        return $this->fetch('add',['auth_group'=>$auth_group]);
+
+        $parameters = Db::name('parameters')
+            ->field('id,name,field,status,type,unit,rw,scope,create_user,create_time')
+            ->order('id desc')
+            ->select();
+        return $this->fetch('add', ['parameters' => $parameters]);
     }
-    //增加用户
-    public function addUser()
+    //增加参数
+    public function addParameters()
     {
-        $post     = $this->request->post();
-        $group_id = $post['group_id'];
-        unset($post['group_id']);
-        $validate = validate('User');
-        $res      = $validate->check($post);
-        if ($res !== true) {
-            $this->error($validate->getError());
-        } else {
-            unset($post['check_password']);
-            $post['password'] = md5($post['password']);
-            $post['last_login_ip'] = '0.0.0.0';
-            $post['create_time']   = date('Y-m-d h:i:s', time());
-            $db = Db::name('user')
-                ->insert($post);
-            $userId = Db::name('user')->getLastInsID();
-             Db::name('auth_group_access')
-                ->insert(['uid'=>$userId,'group_id'=>$group_id]);
-            $this->success('success');
-        }
+        $post = $this->request->post();
+        $post['status'] = '1';
+        $post['create_user'] = session('user_id');
+        $post['create_time'] = date('Y-m-d h:i:s', time());
+        $db = Db::name('parameters')
+            ->insert($post);
+        $name = $post['name'];
+        $this->success('success');
+
     }
+   
     //编辑页面
     public function edit($id)
     {
-        
-        $data = Db::name('User')
-            ->alias('a')
-            ->join('auth_group_access b','b.uid=a.id','left')
-            ->field('a.*,b.group_id')
+        $data = Db::name('parameters')
+            ->field('id,name,field,status,type,unit,rw,scope,create_user,create_time')
             ->where('id', $id)
             ->find();
-        $auth_group = Db::name('auth_group')
-        ->field('id,title')
-        ->order('id desc')
-        ->select();
-        $this->assign('auth_group', $auth_group);
         $this->assign('data', $data);
         return $this->fetch();
     }
     //编辑提交
-    public function editUser()
+    public function editParameters()
     {
-        $post     = $this->request->post();
-        if($post['id']==1){
-            $this->error('系统管理员无法修改');
-        }
-        $group_id = $post['group_id'];
-        unset($post['group_id']);
-        $validate = validate('User');
-        if (empty($post['password']) && empty($post['check_password'])) {
-            $res = $validate->scene('edit')->check($post);
-            if ($res !== true) {
-                $this->error($validate->getError());
-            } else {
-                unset($post['password']);
-                unset($post['check_password']);
-                $db = Db::name('user')
-                    ->where('id', $post['id'])
-                    ->update(
-                        [
-                            'username' => $post['username'],
-                            'email'    => $post['email'],
-                        ]);
-                Db::name('auth_group_access')
-                ->where('uid',$post['id'])
-                ->update(['group_id'=>$group_id]);
-                $this->success('编辑成功');
-            }
-        } else {
-            $res = $validate->scene('editPassword')->check($post);
-            if ($res !== true) {
-                $this->error($validate->getError());
-            } else {
-                unset($post['check_password']);
-                $post['password'] = md5($post['password']);
-                $db               = Db::name('user')
-                    ->where('id', $post['id'])
-                    ->update($post);
-                $this->success('编辑成功');
-            }
-        }
+
+
+        $post = $this->request->post();
+        //$name= $post['status'];
+        //return json(['code'=>0,'data'=>$post,'msg'=>$name]);   
+        $db = Db::name('parameters')
+            ->where('id', $post['id'])
+            ->update(
+                [
+                    'name' => $post['name'],
+                    'field' => $post['field'],
+
+                    'type' => $post['type'],
+                    'unit' => $post['unit'],
+                    'rw' => $post['rw'],
+                    'scope' => $post['scope'],
+                ]
+            );
+
+        $this->success('编辑成功');
+
+
     }
-    //删除用户
-    public function deleteUser()
+     //删除设备
+    public function delParameters()
     {
         $id = $this->request->post('id');
-        $username =  Db::name('user')
-            ->where('id',$id)
-            ->value('username');
-        if ((int) $id !== 1) {
-            if($username!==session('username')){
-                 $db = Db::name('user')
-                ->where('id', $id)
-                ->delete();
-                $this->success('删除成功');
-            }else{
-                 $this->error('无法删除当前登录用户');
-            }
+        $db = Db::name('parameters')
+            ->where('id', $id)
+            ->delete();
+        $this->success('删除成功');
+
+
+    }
+      //利用日期来生成唯一单号
+    public function get_di()
+    {
+          //生成24位唯一订单号码，格式：YYYY-MMDD-HHII-SS-NNNN,NNNN-CC，其中：YYYY=年份，MM=月份，DD=日期，HH=24格式小时，II=分，SS=秒，NNNNNNNN=随机数，CC=检查码
+        @date_default_timezone_set("PRC");
+          //订购日期
+        $order_date = date('Y-m-d');
+          //订单号码主体（YYYYMMDDHHIISSNNNNNNNN）
+        $order_id_main = date('YmdHis') . rand(100, 999);
+          //订单号码主体长度
+        $order_id_len = strlen($order_id_main);
+
+        $order_id_sum = 0;
+
+        for ($i = 0; $i < $order_id_len; $i++) {
+
+            $order_id_sum += (int)(substr($order_id_main, $i, 1));
+
+        }
+          //唯一订单号码（YYYYMMDDHHIISSNNNNNNNNCC）
+        $order_id = $order_id_main . str_pad((100 - $order_id_sum % 100) % 100, 2, '0', STR_PAD_LEFT);
+        return $order_id;
+    }
+
+    /**
+     * * @param string $string 要截取的字符串
+     * * @param int $len 要截取的长度
+     * * @param string $tail 截取后结尾替换的字符换
+     * * @return string $string 返回截取后的字符串
+     */
+    public function changeStr($string, $len, $tail)
+    {
+        if (mb_strlen($string) > $len) {
+            $tmp = mb_substr($string, 0, $len, 'utf8');
+            return $tmp . $tail;
         } else {
-            $this->error('超级管理员无法删除');
+            return $string;
         }
     }
 

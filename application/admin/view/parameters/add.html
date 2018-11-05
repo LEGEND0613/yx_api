@@ -9,91 +9,43 @@ header {
 
 
 <div class="x-body" >
-	<form class="layui-form" id='mainForm' method="post" action="addDevice">
+	<form class="layui-form" id='mainForm' method="post" action="addParameters">
 		<div class="layui-form-item">
 		    <label class="layui-form-label">名称</label>
 		    <div class="layui-input-block">
 		    <input type="text" id="name"  name="name" lay-verify="required|name" autocomplete="off" placeholder="名称" class="layui-input">
 		    </div>
 			</div>
-			<!--
 		  <div class="layui-form-item">
-		    <label class="layui-form-label">设备ID</label>
+		    <label class="layui-form-label">标识</label>
 		    <div class="layui-input-block">
-		    <input type="text" id="deviceId"  name="deviceId" lay-verify="required|deviceId" autocomplete="off" placeholder="请输入设备ID" class="layui-input">
-		    </div>
-			</div>
-			-->
-		  <div class="layui-form-item">
-		    <label class="layui-form-label">设备名称</label>
-		    <div class="layui-input-block">
-		    <input type="text" id="deviceName"   name="deviceName" lay-verify="required|deviceName" autocomplete="off" placeholder="请输入设备名称" class="layui-input">
+		    <input type="text" id="field"  name="field" lay-verify="required|field" autocomplete="off" placeholder="请输入标识" class="layui-input">
 		    </div>
 		  </div>
 		  <div class="layui-form-item">
-		    <label class="layui-form-label">微信设备ID</label>
+		    <label class="layui-form-label">类型</label>
 		    <div class="layui-input-block">
-		    <input type="text" id="wxDeviceId"  name="wxDeviceId" lay-verify="required|wxDeviceId" autocomplete="off" placeholder="请输入微信设备ID" class="layui-input">
+		    <input type="text" id="type"  name="type" lay-verify="required|type" autocomplete="off" placeholder="类型" class="layui-input">
 		    </div>
 		  </div>
 		  <div class="layui-form-item">
-		    <label class="layui-form-label">微信公众号ID</label>
+		    <label class="layui-form-label">单位</label>
 		    <div class="layui-input-block">
-		    <input type="text" id="wxDeviceType"  name="wxDeviceType" lay-verify="required|wxDeviceType" autocomplete="off" placeholder="请输入微信公众号ID" class="layui-input">
+		    <input type="text" id="unit" name="unit" lay-verify="required|unit" autocomplete="off" placeholder="请输入单位" class="layui-input">
 		    </div>
 		  </div>
 		  <div class="layui-form-item">
-		    <label class="layui-form-label">微信绑定者</label>
+		    <label class="layui-form-label">rw</label>
 		    <div class="layui-input-block">
-		    <input type="text" id="wxOpenId"  name="wxOpenId" lay-verify="required|wxOpenId" autocomplete="off" placeholder="请输入微信绑定者" class="layui-input">
-		    </div>
-		  </div>
-		  <div class="layui-form-item">
-		    <label class="layui-form-label">百度连接</label>
-		    <div class="layui-input-block">
-		    <input type="text" id="mqttBaidu" name="mqttBaidu" lay-verify="required|mqttBaidu" autocomplete="off" placeholder="请输入百度连接" class="layui-input">
-		    </div>
-		  </div>
-		  <div class="layui-form-item">
-		    <label class="layui-form-label">百度设备MQQT主题</label>
-		    <div class="layui-input-block">
-		    <input type="text" id="mqttTopicToDevice"   name="mqttTopicToDevice" lay-verify="required|mqttTopicToDevice" autocomplete="off" placeholder="请输入百度MQQT主题" class="layui-input">
+		    <input type="text" id="rw"   name="rw" lay-verify="required|rw" autocomplete="off" placeholder="请输入rw" class="layui-input">
 		    </div>
 			</div>
 			<div class="layui-form-item">
-		    <label class="layui-form-label">百度控制MQQT主题</label>
+		    <label class="layui-form-label">范围</label>
 		    <div class="layui-input-block">
-		    <input type="text" id="mqttTopicToControl"   name="mqttTopicToControl" lay-verify="required|mqttTopicToControl" autocomplete="off" placeholder="请输入百度MQQT主题" class="layui-input">
+		    <input type="text" id="scope"   name="scope" lay-verify="required|scope" autocomplete="off" placeholder="请输入范围" class="layui-input">
 		    </div>
 			</div>
-
-	
-				<!--
-		  <div class="layui-form-item">
-		    <label class="layui-form-label">绑定状态</label>
-		    <div class="layui-input-block">
-		    <input type="text" id="project_name" name="writeStatus" lay-verify="required|writeStatus" autocomplete="off" placeholder="请输入绑定状态" class="layui-input">
-		    </div>
-		  </div>
-		  <div class="layui-form-item">
-		    <label class="layui-form-label">创建用户</label>
-		    <div class="layui-input-block">
-		    <input type="text" id="project_name" name="create_user" lay-verify="required|create_user" autocomplete="off" placeholder="请输入创建用户" class="layui-input">
-		    </div>
-		  </div>
-		  <div class="layui-form-item">
-		    <label class="layui-form-label">创建时间</label>
-		    <div class="layui-input-block">
-		    <input type="text" id="project_name"   name="create_time" lay-verify="required|create_time" autocomplete="off" placeholder="请输入创建时间" class="layui-input">
-		    </div>
-		  </div>
-		  <div class="layui-form-item">
-		    <label class="layui-form-label">固件版本</label>
-		    <div class="layui-input-block">
-		    <input type="text" id="project_name"   name="versions" lay-verify="required|versions" autocomplete="off" placeholder="请输入固件版本" class="layui-input">
-		    </div>
-			</div>
-		-->
 		<div class="layui-form-item">
 		    <div class="layui-input-block">
 		      <button style="margin-left: 20%" class="layui-btn" lay-submit="" lay-filter="toSubmit">提交</button>
