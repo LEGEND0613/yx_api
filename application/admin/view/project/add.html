@@ -9,52 +9,16 @@ header {
 
 
 <div class="x-body" >
-	<form class="layui-form" id='mainForm' method="post" action="addUser">
+	<form class="layui-form" id='mainForm' method="post" action="addProject">
 
-		<div class="layui-form-item">
-                <label class="layui-form-label">
-                    用户角色
-                </label>
-                <div class="layui-input-block">
-                    <select lay-filter="aihao" name="group_id" id='group_id'>
-                        </option>
-                         {volist name='auth_group' id='vo'}
-                                <option value="{$vo.id}">{$vo.title}</option>
-                         {/volist}
-                    </select>
-                </div>
-        </div>
+		
 
 		  <div class="layui-form-item">
-		    <label class="layui-form-label">用户名</label>
+		    <label class="layui-form-label">项目名称</label>
 		    <div class="layui-input-block">
-		    <input type="text" id="username"  name="username" lay-verify="required|username" autocomplete="off" placeholder="请输入用户名" class="layui-input">
+		    <input type="text" id="project_name"  name="project_name" lay-verify="required|project_name" autocomplete="off" placeholder="项目名称" class="layui-input">
 		    </div>
 		  </div>
-
-		<div class="layui-form-item">
-		    <label class="layui-form-label">邮&nbsp;&nbsp;&nbsp;箱</label>
-		    <div class="layui-input-block">
-		    <input type="text" id="email" name="email" lay-verify="required|email" placeholder="请输入注册邮箱" autocomplete="off" class="layui-input">
-		    </div>
-		</div>
-
-		<div class="layui-form-item">
-		    <label class="layui-form-label">密&nbsp;&nbsp;&nbsp;码</label>
-		    <div class="layui-input-block">
-		    <input type="password" id="password"  name="password" lay-verify="required|pass" placeholder="请输入密码" autocomplete="off" class="layui-input">
-		    </div>
-	  	</div>
-
-	  	<div class="layui-form-item">
-		    <label class="layui-form-label">确&nbsp;&nbsp;&nbsp;认</label>
-		    <div class="layui-input-block">
-		    	<input type="password"  id="check_password"  name="check_password" lay-verify="required" placeholder="请输入密码" autocomplete="off" class="layui-input">
-		    </div>
-	  	</div>
-
-
-
 
 		<div class="layui-form-item">
 		    <div class="layui-input-block">
@@ -75,7 +39,7 @@ header {
 			  form.verify({
 			    username: function(value){
 			      if(value.length < 5){
-			        return '用户名至少得5个字符啊';
+			        return '项目名称至少得5个字符啊';
 			      }
 			    }
 			  });

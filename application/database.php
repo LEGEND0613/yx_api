@@ -15,7 +15,7 @@ return [
     // 服务器地址
     'hostname'        => '192.168.3.212',
     // 数据库名
-    'database'        => 'yx_api',
+    'database'        => 'yx_iot',
     // 用户名
     'username'        => 'root',
     // 密码

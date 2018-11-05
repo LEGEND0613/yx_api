@@ -6,7 +6,7 @@ use think\Db;
 use think\Session;
 use think\Validate;
 
-class Equipment_info extends Controller
+class Device_parameters extends Controller
 {
 
     public function index(){

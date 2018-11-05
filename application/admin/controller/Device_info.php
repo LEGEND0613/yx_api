@@ -6,24 +6,66 @@ use think\Db;
 use think\Session;
 use think\Validate;
 
-class Equipment extends Controller
+class Device_info extends Controller
 {
 
     public function index(){
-        $data = Db::name('equipment')
+        return $this->fetch('login');
+    }
+
+    public function login()
+    {
+        $post     = $this->request->post();
+        if(empty($post)){
+            $this->redirect('user/index');
+        }
+        $validate = validate('User');
+        $validate->scene('login');
+        $username  =  $post['username'];
+        $user_id = Db::name('user')
+            ->where('username', $username)
+            ->value('id');
+        if (!$validate->check($post)) {
+            $this->error($validate->getError());
+        } else {
+            $sql_password = Db::name('user')
+                ->where('username', $post['username'])
+                ->value('password');
+            if (md5($post['password']) !== $sql_password) {
+                $this->error('密码错误');
+            } else {
+                session('username', $post['username']);
+                session('user_id', $user_id);
+                Db::name('user')
+                    ->where('username',$post['username'])
+                    ->update(['last_login_ip'=>$_SERVER['REMOTE_ADDR'],'last_login_time'=>date('Y-m-d h:i:s',time())]);
+                $this->success('登陆成功', 'index/index');
+            }
+        }
+    }
+    //注销
+    public function logOut()
+    {
+        session('username', null);
+        $this->redirect('admin/user/index');
+    }
+
+    public function userlist()
+    {
+        $data = Db::name('User')
             ->order('id asc')
             ->paginate(12);
-        $this->assign('equipment', $data);
+        $this->assign('users', $data);
         return $this->fetch();
     }
     //打开新增界面
     public function showAdd()
     {
-        $equipment = Db::name('equipment')
-        ->field('id,user_name')
+        $auth_group = Db::name('auth_group')
+        ->field('id,title')
         ->order('id desc')
         ->select();
-        return $this->fetch('add',['equipment'=>$equipment]);
+        return $this->fetch('add',['auth_group'=>$auth_group]);
     }
     //增加用户
     public function addUser()
