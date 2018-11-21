@@ -71,16 +71,16 @@ class Project extends Controller
 
     }
      //删除设备
-     public function deleteProject()
-     {
-         $id = $this->request->post('id');
-          $db = Db::name('project')
-                 ->where('id', $id)
-                 ->delete();
-                 $this->success('删除成功');
-           
-         
-     }
+    public function deleteProject()
+    {
+        $id = $this->request->post('id');
+        $db = Db::name('project')
+            ->where('id', $id)
+            ->delete();
+        $this->success('删除成功');
+
+
+    }
     
       //利用日期来生成唯一单号
     public function get_di()
